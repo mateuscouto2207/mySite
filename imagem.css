@@ -1,0 +1,579 @@
+/* CSS rules */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'futura',sans-serif;
+    background-color: #f2f2f2;
+}
+.title{
+    font-size: xx-large;
+    padding: 0;
+    color: black; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute; /* Position the button absolutely within the container */
+    border: black;
+    text-align: center;
+    bottom: 800px; /* Adjust as needed to control the button's vertical position */
+    right: 800px; /* Adjust as needed to control the button's horizontal position */
+}
+h1 {
+    color: #333;
+}
+.download-button {
+    display: inline-block;
+    font-size: xx-large;
+    padding: 0;
+    color: white; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+    width: 420px;
+    height: 60px;
+    position: absolute; /* Position the button absolutely within the container */
+    bottom: 620px; /* Adjust as needed to control the button's vertical position */
+    right: 200px; /* Adjust as needed to control the button's horizontal position */
+    border: none;
+    text-align: center;
+}
+.button{
+    display: inline-block;
+    font-size: xx-large;
+    padding: 0;
+    color: white; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+    width: 410px;
+    height: 60px;
+    position: absolute; /* Position the button absolutely within the container */
+    bottom: 620px; /* Adjust as needed to control the button's vertical position */
+    right: 1300px; /* Adjust as needed to control the button's horizontal position */
+    border: none;
+    text-align: center;
+}
+.button2{
+    display: inline-block;
+    font-size: xx-large;
+    padding: 0;
+    color: white; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+    width: 410px;
+    height: 60px;
+    position: absolute; /* Position the button absolutely within the container */
+    bottom: 350px; /* Adjust as needed to control the button's vertical position */
+    right: 750px; /* Adjust as needed to control the button's horizontal position */
+    border: none;
+    text-align: center;
+}
+.version{
+    display: inline-block;
+    font-size: x-large;
+    position: absolute; /* Position the button absolutely within the container */
+    bottom: 550px; /* Adjust as needed to control the button's vertical position */
+    right: 270px; /* Adjust as needed to control the button's horizontal position */
+    color: lightblue; /* Text color */
+}
+.versionchecker{
+    font-size: x-large;
+    display: inline-block;
+    position: absolute; /* Position the button absolutely within the container */
+    color: white; /* Text color */
+    bottom: 550px; /* Adjust as needed to control the button's vertical position */
+    right: 350px; /* Adjust as needed to control the button's horizontal position */
+}
+.image-container {
+    position: relative; /* Container is positioned relative to its normal position */
+    width: 1903px; /* Set the container's width */
+    height: 1240px; /* Set the container's height */
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.bar{
+    background: gainsboro;
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: xx-large;
+}
+.bar-size{
+    background: gainsboro;
+    width: 100%;
+    height: 950px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: xx-large;
+    text-align: center;
+}
+.storybutton{
+    display: inline-block;
+    position: absolute; /* Position the button absolutely within the container */ /* Text color */
+    color: white; /* Text color */
+    text-decoration: none;
+    right: 5%;
+    bottom: 96%;
+}
+.storybutton:hover{
+    color: lightblue;
+}
+.achievement{
+    display: inline-block;
+    position: absolute; /* Position the button absolutely within the container */ /* Text color */
+    color: white; /* Text color */
+    text-decoration: none;
+    right: 5%;
+    bottom: 91%;
+}
+.achievement:hover{
+    color: lightblue;
+}
+.project{
+    display: inline-block;
+    position: absolute; /* Position the button absolutely within the container */ /* Text color */
+    color: white; /* Text color */
+    text-decoration: none;
+    right: 5%;
+    bottom: 86%;
+}
+.project:hover{
+    color: lightblue;
+}
+.findme{
+    display: inline-block;
+    position: absolute; /* Position the button absolutely within the container */ /* Text color */
+    color: white; /* Text color */
+    text-decoration: none;
+    right: 5%;
+    bottom: 81%;
+}
+.findme:hover{
+    color: lightblue;
+}
+.thyme-button{
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+}
+.block{
+        width: 10px; /* Set the desired width for the block */
+        height: 850px; /* Set the desired height for the block */
+
+        color: gainsboro; /* Text color */
+        padding: 10px; /* Add padding for content within the block */
+        left: 50px;
+        position: absolute;
+        border-radius: 25px;
+}
+.bar-size2{
+    background: gainsboro;
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: xx-large;
+    text-align: center;
+    height: 900px;
+}
+.relative{
+    position: relative;
+}
+.cubing{
+    left: 400px;
+    top: 450px;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    display: block;
+}
+.cubingtext{
+    left: 400px;
+    top: 575px;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    display: none;
+    text-align: center;
+}
+.programing{
+    left: 400px;
+    top: 50px;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    display: block;
+}
+.programingtext{
+    left: 400px;
+    top: 175px;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    display: none;
+}
+.drawing{
+    left: 1000px;
+    top: 450px;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    display: block;
+}
+
+.drawingtext{
+    left: 1000px;
+    top: 575px;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    display: none;
+    
+}
+.reading{
+    left: 1000px;
+    top: 50px;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    display: block;
+}
+.readingtext{
+    left: 1000px;
+    top: 200px;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    display: none;
+    
+}
+.story{
+    text-align: center;
+}
+.line{
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    left: 25px;
+    bottom: 160px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.linebig{
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 13px;
+    background-color: black;
+    left: 25px;
+    bottom: 205px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.line2{
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    left: 25px;
+    bottom: 260px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.line3{
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    left: 25px;
+    bottom: 360px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.linebig2{
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 13px;
+    background-color: black;
+    left: 25px;
+    bottom: 405px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.line4{
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    left: 25px;
+    bottom: 460px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.line5{
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    left: 25px;
+    bottom: 560px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.linebig3{
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 13px;
+    background-color: black;
+    left: 25px;
+    bottom: 605px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.line6{
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    left: 25px;
+    bottom: 660px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.line7{
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    left: 25px;
+    bottom: 760px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.linebig4{
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 13px;
+    background-color: black;
+    left: 25px;
+    bottom: 805px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.line8{
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    left: 25px;
+    bottom: 860px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.hover1{
+    display: block;
+    position: absolute;
+    left: 25px;
+    width: 400px;
+    bottom: 100px;
+    color: white;
+    background-color: black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.hover2{
+    display: block;
+    position: absolute;
+    left: 25px;
+    width: 400px;
+    bottom: 500px;
+    color: white;
+    background-color: black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom: black;
+}
+.hover3{
+    position: absolute;
+    display: block;
+    left: 25px;
+    bottom: 700px;
+    width: 400px;
+    color: white;
+    background-color: black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.hover4{
+    position: absolute;
+    display: block;
+    left: 25px;
+    bottom: 300px;
+    width: 400px;
+    color: white;
+    background-color: black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+p{
+    width: 600px;
+    text-align: left;
+}
+.text{
+    width: 600px;
+    text-align: left;
+}
+.kind{
+    width: 600px;
+    text-align: left;
+}
+.coffee{
+    width: 1000px;
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 100%;
+    left: 850px;
+    bottom: 950px;
+}
+.sweet{
+    width: 200px;
+    height:150px;
+}
+.relative2{
+    position: relative;
+    height: 1300px;
+}
+.total{
+    position: absolute;
+    left: 20px;
+}
+.ach1{
+    display: none;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    transition: opacity 0.5s;
+    opacity: 1;
+    left: 750px;
+}
+.ach2{
+    display: none;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 750px;
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+.ach3{
+    display: none;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 750px;
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+.ach4{
+    display: none;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 750px;
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+.relative3{
+    position: relative;
+}
+.text1{
+    position:absolute;
+    color: black;
+    left: 750px;
+    top: 380px;
+    display: none;
+}
+.text2{
+    position:absolute;
+    color: black;
+    left: 750px;
+    top: 380px;
+    display: none;
+}
+.text3{
+    position:absolute;
+    color: black;
+    left: 750px;
+    top: 380px;
+    display: none;
+}
+.text4{
+    position:absolute;
+    color: black;
+    top: 380px;
+    left: 750px;
+    display: none;
+}
+.relative4{
+    position:relative;
+    background-color: gainsboro;
+}
+.twitter{
+    position:absolute;
+    left:700px;
+    top:50px;
+    color:black;
+    text-decoration: none;
+}
+.instagram{
+    position:absolute;
+    left:700px;
+    top:100px;
+    color:black;
+    text-decoration: none;
+}
+.medium{
+    position:absolute;
+    left:700px;
+    top:150px;
+    color:black;
+    text-decoration: none;
+}
+.fimerr{
+    position:absolute;
+    left:700px;
+    top:200px;
+    color:black;
+    text-decoration: none;
+}
+.kickstarter{
+    position:absolute;
+    left:700px;
+    top:250px;
+    color:black;
+    text-decoration: none;
+}
+.imgur{
+    position: absolute;
+    right: 200px;
+    width: 800px;
+    height: 600px;
+}
+.newupdate{
+    background-color: gainsboro;
+}
